@@ -10,7 +10,7 @@ const corsOpts = {
     allowedHeaders: ["Content-Type"],
 };
 
-app.use(cors(corsOpts));
+app.use(cors());
 
 // parse requests of content-type - application/json
 app.use(express.json());
